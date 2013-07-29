@@ -1,5 +1,5 @@
 body{
-  font-family: Armata;
+  font-family: Foobar Pro;
   padding: 5px;
   background:#fafafa;
 }
@@ -14,15 +14,24 @@ p {
   color:#808080;
 }
 
-h2 {
-  font-family: Foobar Pro;
+h1 {
+  border-bottom: 2px dotted;
+}
+
+h3 {
+  font-family: Armata;
+  font-size: 20px;
   color: white;
+}
+li {
+  font-family: Armata;
+  font-size: 14px;
 }
 
 #new-task-field{
   padding:10px;
   border:none;
-  width:789px;
+  width:650px;
   margin:0 0 0 45px;
 }
 
@@ -43,6 +52,7 @@ h2 {
   padding:10px 40px 10px 10px;
   background:#404040;
   color:#eeeeee;
+  border-radius: 11px;
 }
 #finished li{
   list-style-type: none;
@@ -57,6 +67,9 @@ h2 {
 
 button{
   margin:0px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
   border:none;
 }
 
@@ -69,7 +82,7 @@ button{
 }
 
 #add-item{
-  background:#6060ff;
+  background:#81DAF5;
   padding:10px 20px 10px 20px;
 }
 .delete:hover{
@@ -81,12 +94,9 @@ button{
 }
 
 #add-item:hover{
-  background:#4040ff;
+  background:#58ACFA;
 }
 
 li{
   margin:5px;
-}
-h3{
-  color:#404040;
 }
