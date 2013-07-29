@@ -1,7 +1,7 @@
 body{
-  font-family: Helvetica, Arial, Sans-Serif;
+  font-family: Armata;
+  padding: 5px;
   background:#fafafa;
-  color:#808080;
 }
 
 #container{
@@ -9,8 +9,14 @@ body{
   margin:auto;
 }
 
-p{
+p {
   margin:0px;
+  color:#808080;
+}
+
+h2 {
+  font-family: Foobar Pro;
+  color: white;
 }
 
 #new-task-field{
