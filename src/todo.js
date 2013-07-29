@@ -14,9 +14,16 @@ todoApp.newTodo = function(task) {
   return task;
 }
 
+// DOM MANIPULATION - Monkey Bars
 var addThisTask = function () {
+  // add task from input by applying todoApp.newTodo function
   var taskInput = document.getElementById('new-task-field').value;
-
+  var theNewTask = todoApp.newTodo(taskInput);
+  var todoList = document.getElementById('todo-items');
+  var todoItems = document.getElementById('new-todo');
+  // append li (child) text to ul parent.
+  todoItems.innerText = newTodo.task;
+  todoList.appendChild(todoItems);
 }
 
 
